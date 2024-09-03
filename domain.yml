@@ -1,0 +1,50 @@
+version: "3.1"
+#mendefinisikan domain chatbot, termasuk informasi tentang intents, entities, slots, responses, actions, dan forms.
+#Ini adalah konfigurasi penting yang membantu Rasa memahami dan mengelola interaksi dengan pengguna.
+intents:
+  - salam
+  - selamat_tinggal
+  - setuju
+  - tidak_setuju
+  - mood_baik
+  - mood_buruk
+  - tanya_menu
+  - pesan_kopi
+  - tanya_jam_buka
+  - tanya_lokasi
+
+responses:
+  utter_salam:
+    - text: "Hai! Apa kabar?"
+
+  utter_semangat:
+    - text: "Ini sesuatu untuk menyemangatimu:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_apa_membantu:
+    - text: "Apakah itu membantu?"
+
+  utter_senang:
+    - text: "Bagus, lanjutkan!"
+
+  utter_selamat_tinggal:
+    - text: "Sampai jumpa"
+
+  utter_saya_bot:
+    - text: "Saya adalah bot, didukung oleh Rasa."
+
+  utter_menu:
+    - text: "Kami memiliki berbagai macam kopi seperti Espresso, Latte, Cappuccino, dan banyak lagi. Apakah Anda ingin mencoba salah satu?"
+
+  utter_pesan_kopi:
+    - text: "Tentu, kopi apa yang ingin Anda pesan?"
+
+  utter_tanya_jam_buka:
+    - text: "Kami buka setiap hari dari jam 8 pagi hingga jam 10 malam."
+
+  utter_tanya_lokasi:
+    - text: "Kami berada di Jalan Coffee No. 1, Jakarta."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

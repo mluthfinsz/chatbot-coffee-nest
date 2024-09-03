@@ -1,0 +1,12 @@
+version: "3.1"
+#mengatur perilaku bot
+rules:
+  - rule: Ucapkan selamat tinggal saat user mengucapkan selamat tinggal
+    steps:
+      - intent: selamat_tinggal
+      - action: utter_selamat_tinggal
+
+  - rule: Katakan 'Saya bot' saat user bertanya
+    steps:
+      - intent: bot_challenge
+      - action: utter_saya_bot

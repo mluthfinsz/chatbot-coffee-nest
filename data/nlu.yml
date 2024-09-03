@@ -1,0 +1,89 @@
+version: "3.1"
+#digunakan untuk menyimpan data pelatihan yang berkaitan dengan pemahaman bahasa alami menggunakan NLU
+nlu:
+  - intent: salam
+    examples: |
+      - hai
+      - halo
+      - hi
+      - selamat pagi
+      - selamat malam
+      - selamat siang
+      - halo semuanya
+      - hai kawan
+
+  - intent: selamat_tinggal
+    examples: |
+      - sampai jumpa
+      - selamat tinggal
+      - dadah
+      - sampai nanti
+      - sampai bertemu lagi
+      - sampai jumpa lagi
+
+  - intent: setuju
+    examples: |
+      - ya
+      - benar
+      - tentu saja
+      - itu bagus
+      - betul
+
+  - intent: tidak_setuju
+    examples: |
+      - tidak
+      - tidak suka
+      - tidak mungkin
+      - tidak benar-benar
+
+  - intent: mood_baik
+    examples: |
+      - sempurna
+      - hebat
+      - luar biasa
+      - merasa seperti raja
+      - saya merasa sangat baik
+      - saya hebat
+      - saya luar biasa
+
+  - intent: mood_buruk
+    examples: |
+      - hari saya buruk
+      - saya sedih
+      - saya tidak merasa baik
+      - saya kecewa
+      - saya sangat sedih
+      - sedih sekali
+      - sangat sedih
+
+  - intent: tanya_menu
+    examples: |
+      - apa menu yang tersedia?
+      - ada menu apa saja?
+      - bisa beri tahu menu yang ada?
+      - apa saja pilihan minuman?
+      - apa menu kopi hari ini?
+
+  - intent: pesan_kopi
+    examples: |
+      - saya mau pesan kopi
+      - bisa pesan kopi?
+      - saya ingin memesan kopi
+      - tolong buatkan saya kopi
+      - saya mau kopi sekarang
+
+  - intent: tanya_jam_buka
+    examples: |
+      - jam berapa coffee shop buka?
+      - kapan coffee shop buka?
+      - jam operasional coffee shop?
+      - buka jam berapa hari ini?
+      - kapan buka?
+
+  - intent: tanya_lokasi
+    examples: |
+      - di mana lokasi coffee shop?
+      - alamat coffee shop?
+      - lokasi coffee shop di mana?
+      - coffee shop terletak di mana?
+      - di mana tempatnya?

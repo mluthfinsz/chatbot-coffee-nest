@@ -1,0 +1,57 @@
+version: "3.1"
+#untuk mendefinisikan alur percakapan (stories) yang memungkinkan chatbot mengikuti skenario tertentu berdasarkan interaksi pengguna
+stories:
+  - story: jalur bahagia
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: mood_baik
+      - action: utter_senang
+
+  - story: jalur sedih 1
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: mood_buruk
+      - action: utter_semangat
+      - action: utter_apa_membantu
+      - intent: setuju
+      - action: utter_senang
+
+  - story: jalur sedih 2
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: mood_buruk
+      - action: utter_semangat
+      - action: utter_apa_membantu
+      - intent: tidak_setuju
+      - action: utter_selamat_tinggal
+
+  - story: salam dan tanya menu
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: tanya_menu
+      - action: utter_menu
+
+  - story: salam dan pesan kopi
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: pesan_kopi
+      - action: utter_pesan_kopi
+
+  - story: salam dan tanya jam buka
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: tanya_jam_buka
+      - action: utter_tanya_jam_buka
+
+  - story: salam dan tanya lokasi
+    steps:
+      - intent: salam
+      - action: utter_salam
+      - intent: tanya_lokasi
+      - action: utter_tanya_lokasi

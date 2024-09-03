@@ -1,0 +1,15 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+NzWvtLY2FgB5eR2f": "utter_tanya_menu",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+NzWvtJaAQaUlJalF8Ujq8ZoVCwCdMjrl": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+KzE3Pqk0O7G2NhYA8p4fJA==": "utter_tanya_jam_buka",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+KzE3Pqk0O7GWgGGlJSWpRfFoegiaGQsAeVo/dA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbe2NhYA6b8bfA==": "utter_salam",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODEnMbeWgBmlJSWpRfEQpbhMiAUAP380fA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+Jz87sTiztjYWALWmHm0=": "utter_tanya_lokasi",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhJDGvMjE+Jz87sTizloBRpSUlqUXxKDoImBcLAAp/PU8=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODUnMTexJL4kMy89PTGntjYWABJ+H5o=": "utter_selamat_tinggal",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhODUnMTexJL4kMy89PTGnloBppSUlqUXx6JoImxoLAERXQNY=": "action_listen"
+  }
+}
